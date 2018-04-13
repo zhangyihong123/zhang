@@ -1,0 +1,92 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.aaa{
+  width: 100%;
+  height: 100%;
+  background-color: #f4f4f4;
+  font-size: 62.5%;
+}
+.inp{
+  width: 550rpx;
+  height: 80rpx;
+  padding-left: 30rpx;
+}
+.zi{
+  width: 710rpx;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  border: 1rpx solid #e5e5e5;
+}
+.he{
+  width: 710rpx;
+    margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 80rpx;
+  border: 1rpx solid #e5e5e5;
+}
+.int{
+  width: 300rpx;
+  height: 80rpx;
+   padding-left: 30rpx;
+   float: left;
+}
+.jj{
+  width: 30rpx;
+  height: 40rpx;
+  float: left;
+  margin-left: 30rpx;
+  margin-top: 20rpx;
+}
+.btn{
+  width: 200rpx;
+  height: 70rpx;
+  background-color: #ff8b26;
+  font-size: 28rpx;
+  margin-top: 5rpx;
+}
+.enter{
+  display: block;
+    margin-left: auto;
+  margin-right: auto;
+  
+  width: 710rpx;
+  height: 80rpx;
+  margin-top: 40rpx;
+  background-color: #ff8b26;
+  color:#f8e2be;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 34rpx;
+}
+.tan{
+    display: flex;
+     flex-direction:row; 
+    justify-content: center;
+   padding-top: 100rpx;
+   margin-bottom: 150rpx;
+}
+.tv,.tav{
+    width: 150rpx;
+    height: 150rpx;
+    margin: 10rpx;
+
+}
+.tv image{
+  width: 130rpx;
+  height: 110rpx;
+}
+.tav image{
+  width: 60rpx;
+  height:30rpx; 
+  margin-top: 50rpx;
+  margin-left: 40rpx;
+}

@@ -1,0 +1,26 @@
+<!--logs.wxml-->
+<view class="aaa" style='height:{{bgH}}px;width:{{bgW}}px'>
+<view class='tan'>  
+<view class="tv">
+<image src="{{srcUrl}}"  />
+<text>{{srcName}}</text>
+</view>
+<view  class="tav">
+<image src="../../images/4.png" />
+</view>
+<view  class="tv">
+<image src="../../images/3.png"  />
+<text>猎聘同道</text>
+</view>
+</view>
+<view class="zi">
+<image src="../../images/5.jpg" class='jj' />
+<input bindinput='tel' placeholder='请输入手机号' class='inp'/>
+</view>
+<view class="he">
+<image src="../../images/6.jpg" class='jj' />
+<input bindinput='val' placeholder='请输入验证码' class='int'/>
+<button class='btn' bindtap='yan'>{{yan}}</button>
+</view>
+<text class='enter' bindtap='log'>进入小程序</text>
+</view>

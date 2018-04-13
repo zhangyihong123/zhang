@@ -1,0 +1,178 @@
+<view class='box'>
+<view class="qiye">
+<view class='qiye_top'>
+<image src='../../images/fd.jpg'></image>
+<input type='text' placeholder='请输入宁要招的职位名称，如 "销售"  '></input>
+</view>
+</view>
+
+<view class='hot'>
+<view>热门职位推荐</view>
+</view>
+<view class='fuwu'>
+<view class='fuwu_centent'>
+<button>服务员</button>
+<button>营业员</button>
+<button>客服</button>
+<button>销售代表</button>
+<button>促销员</button>
+<button>文员</button>
+<button>迎宾</button>
+<button>前台</button>
+<button>收银员</button>
+<button>保安</button>
+</view>
+</view>
+
+<view class='xuanz'>
+<view>填写基本信息</view>
+</view>
+<view class='fuwu'>
+<view class='fuwu_centent'>
+<view class='vi'>
+<view class='zhiye_'><text class='ww'>*</text><text class='qq'>职业性质</text></view>
+<button>全职</button>
+<button>兼职</button>
+<button>实习</button>
+</view>
+
+<view class='vi'>
+<view class='zhiye_'><text class='ww'>*</text><text class='qq'>招聘岗位</text></view>
+<button>全职</button>
+</view>
+
+<view class='vi'>
+<view class='zhiye_'><text class='ww'>*</text><text class='qq'>招聘要求</text></view>
+
+
+<view class='xxy'>
+   <picker bindchange="bindPickerChangeA" value="{{areaIndexA}}" range="{{areas}}">  
+        <view class="picker_c">  
+          {{areas[areaIndexA]}}  
+        </view>  
+    </picker>  
+   
+   </view>
+
+<text class='xx'>人</text>
+   <view class='xxy'>
+   <picker bindchange="bindPickerChangeB" value="{{areaIndexB}}" range="{{area}}">  
+        <view class="picker">  
+          {{area[areaIndexB]}}  
+        </view>  
+    </picker>  
+   
+   </view>
+    
+ <text class='han'>含以上</text> 
+ <view class='xxy'>
+   <picker bindchange="bindPickerChangeC" value="{{areaIndexC}}" range="{{areasq}}">  
+        <view class="picker">  
+          {{areasq[areaIndexC]}}  
+        </view>  
+    </picker>  
+   
+   </view>
+</view>
+
+
+<view class='vi'>
+</view>
+
+<view class='vi'>
+<view class='zhiye_'><text class='ww'>*</text><text class='qq'>职位描述</text></view>
+
+<view class="section">
+  <textarea placeholder="岗位介绍" placeholder-style=""  class='tex' />
+</view>
+</view>
+
+<view class='vi'>
+<view class='zhiye_'><text class='ww'>*</text><text class='qq'>公司简介</text></view>
+
+<view class="section">
+  <textarea placeholder="岗位介绍" placeholder-style=""  class='tex' />
+</view>
+
+
+
+<view class='viq'>
+<view class='zhiye_q'><text class='qq'>职位亮点标签</text>
+<text class='rr'>
+选择职业亮点，提升职位吸引力,有效增加职位投递!
+<text class='yy'>(最多选则8个)</text>
+</text>
+<view class="job-ask">
+<view class="job-ask-sizing">
+<view class="job-label appointent-date-div {{item.state==1?'active-tag':''}}" bindtap="{{bbb.length!=9?'select_date':'ddd'}}" wx:for="{{datess}}" data-key='{{index}}'>
+<view class="flex-item">
+<text>{{item.data_name}}</text>
+</view>
+</view>
+</view>
+</view>
+</view>
+</view>
+
+
+
+
+<view class='viq'>
+<view class='zhiye_qw'><text class='ww'>*</text><text class='qq_v'>工作地点</text>
+<text class='qaq'>添加/发布地点</text>
+</view>
+</view>
+
+<view class='viq'>
+<view class='zhiye_qw'><text class='ww'>*</text><text class='qq_v'>工作地址</text>
+<text class='qaq' bindtap='place'>{{mapText}}</text>
+</view>
+</view>
+
+
+<view class='viq'>
+<view class='zhiye_qw'><text class='ww'>*</text><text class='qq_v'>发布截止日期</text>
+<view class="section_e">
+  <picker mode="date" value="{{date}}" start="1978-01-01" end="2017-1-23" bindchange="bindDateChange" class='pig'>  
+    <view class="picker_i">  
+    {{dates}}
+      
+    </view>  
+  </picker> 
+</view> 
+</view>
+</view>
+ <view class='viq'>
+<view class='zhiye_qwa'><text class='qq_vr'>请根据需求发布截止日期,不得超过有效期 2019-01-09</text>
+<!--  -->
+
+<!--  -->
+</view>
+</view> 
+</view>
+
+
+
+
+
+
+
+
+
+
+</view>
+
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+</view>

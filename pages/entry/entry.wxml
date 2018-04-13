@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container" style='height:{{bgH}}px;width:{{bgW}}px'>
+
+<view class="ock" bindtap="btn">
+<image   src="../../images/2.png" class="imgs" />
+<text class='ena'>我想找工作</text>
+</view>
+
+<view class="ock"  bindtap='company'>
+<image src="../../images/1.png" class='imga' />
+<text class='ena enb'>我想招人</text>
+</view>
+</view>

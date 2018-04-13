@@ -1,0 +1,175 @@
+<!--logs.wxml-->
+<view class='mo'>
+
+<view class='unit'>
+<view class='unit_string'></view>
+<text>单位信息</text>
+</view>
+
+<view class='unit_int'>
+
+
+
+
+<view class='unit_center'>
+<view>
+<text class='unit_red'>*</text>
+<text>单位名称</text>
+</view>
+<view class='unit_seat'>
+<text class='unit_red' decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;*</text>
+<text >所在地</text>
+</view>
+
+<view class='unit_contacts'>
+<text class='unit_red' decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;*</text>
+<text >联系人</text>
+</view>
+
+<view class='unit_tel'>
+<text class='unit_red'>*</text>
+<text>联系电话</text>
+</view>
+
+<view class='unit_verify'>
+<text class='unit_red' decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;*</text>
+<text >验证码</text>
+</view>
+</view>
+
+<view class='unit_right'>
+<view class='unit_name'>
+
+<view><input class='unit_input' value='{{danwei}}'/></view>
+<view class='unit_it'>
+
+
+
+
+
+
+<view class='select_box'>
+<view class='select' catchtap='selectTap'>
+<text class='select_text'>{{selectData[index].name}}</text> 
+</view>
+<view class='option_box' style='height:{{aa?(selectData.length>5?300:selectData.length*60):0}}rpx;'>
+<text class='option' style='{{index==selectData.length-1&&"border:0;"}}' wx:for='{{selectData}}' wx:key='this' data-index='{{index}}' catchtap='optionTap'>{{item.name}}</text>
+</view>
+</view>
+
+
+
+
+
+
+
+<view class='unit_sa'>
+<text>省</text>
+</view>
+
+
+<view class='select_box'>
+<view class='select' catchtap='selectTapb'>
+<text class='select_text' wx:for="{{selectData[index]}}">{{item[indexx].name}}</text> 
+</view>
+<view class='option_box' style='height:{{bb?(selectDatae.length>5?300:selectDatae.length*60):0}}rpx;'>
+<text class='option' style='{{index==selectDatae.length-1&&"border:0;"}}' wx:for='{{selectData[index].city}}' wx:key='this' data-index='{{index}}' catchtap='optionTapb'>{{item.name}}</text>
+</view>
+</view>
+
+
+
+<view class='unit_sa'>
+<text>市</text></view>
+</view>
+
+
+<view  class='unit_it'>
+
+<input class='unit_sex' value='{{lianxi}}'/>
+<radio-group bindchange="radioChange"> 
+<radio value="男" checked="" /> 男
+<radio value="女" checked="" class='ra'/> 女
+</radio-group> 
+
+
+</view>
+
+
+
+<view>
+
+<input value='{{tel}}' placeholder='手机号码' class='unit_mobile' bindblur='atel'/>
+
+</view>
+
+<view class='unit_it'>
+<input bindblur='val' placeholder='验证码' class='unit_verif' value='{{ayan}}'/>
+
+<text class='btn' bindtap='yan'>{{yan}}</text>
+</view>
+</view>
+</view>
+</view>
+
+<view class='account'>
+<text>账户信息</text>
+</view>
+
+
+
+
+
+
+<view class='unit_int'>
+
+<view class='unit_center'>
+<view>
+<text class='unit_red'>*</text>
+<text>电子邮箱</text>
+</view>
+
+<view class='unit_seat'>
+<text class='unit_red' decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;*</text>
+<text >用户名</text>
+</view>
+
+<view class='unit_contacts'>
+<text class='unit_red' decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*</text>
+<text >密码</text>
+</view>
+
+
+</view>
+
+<view class='unit_right'>
+<view class='unit_name'>
+
+<view><input class='unit_mailbox'  value='{{email}}' bindblur='aemail'/></view>
+
+<view><input class='unit_party' value='{{user}}' bindblur='auser'/></view>
+
+<view><input placeholder='密码至少8位数' class='unit_cipher' value = '{{pass}}' bindblur='apass' type='password'/>
+
+</view>
+
+
+
+
+
+
+
+
+
+</view>
+</view>
+</view>
+
+
+<view class='unit_int'>
+<text class='enter' bindtap='log'>免费注册</text>
+</view>
+</view>
+
+
+

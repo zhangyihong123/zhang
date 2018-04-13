@@ -1,0 +1,27 @@
+/* pages/Form/Form.wxss */
+.cont{
+  width:100%;
+  /* background: #F8F8F8;  */
+}
+.post{
+   margin: 15px; 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.tet{
+  border: 1px solid #ccc;
+}
+
+.radio{
+  margin-left:-20px; 
+}
+input{
+  font-size: 14px;
+}
+.ter{
+   width: 50%;
+}
+.tere{
+  width:60%;
+}

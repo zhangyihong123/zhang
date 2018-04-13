@@ -1,0 +1,164 @@
+/* pages/workDetails/workDetails.wxss */
+text{
+  font-size: 25rpx;
+}
+
+
+.box{
+	width: 100%;
+	height: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+  	
+
+}
+.header{
+  width: 100%;
+  height: auto;
+
+}
+.head_top{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.head_top image{
+  width: 40rpx;
+  height: 40rpx;
+
+}
+
+.head_top text:nth-child(4){
+  padding-top: 5rpx;
+  font-size:25rpx;
+  color: #afafaf;
+
+}
+.title_name{
+  font-size: 30rpx;
+  margin-top: 68rpx;
+  padding-left: 20rpx;
+  display: block;
+  font-weight: bold;
+}
+.count_top{
+  padding-left: 20rpx;
+
+}
+.count_top text:nth-child(1){
+  color: red;
+  font-size: 32rpx;
+}
+.count_top text:nth-child(2){
+  background: #cccccc;
+  border-radius: 10rpx;
+  font-size: 25rpx;
+  color: #fff;
+  padding: 5rpx;
+  margin-left: 10rpx;
+}
+.list{
+  width: 80%;
+  padding-left: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.list image{
+  width: 30rpx;
+  height: 30rpx;
+  margin-top: 30rpx;
+}
+.list text{
+  padding-left: 5rpx;
+}
+.header_foot{
+  width: 100%;
+  display: flex;
+  padding-top: 15rpx;
+
+}
+.header_foot image{
+  width: 80rpx;
+  height: 80rpx;
+  padding-left: 20rpx;
+
+}
+.header_foot text{
+  display: block;
+  padding-left: 20rpx;
+}
+.header_foot text:nth-child(2){
+  color: #ccc;
+  font-size: 26rpx;
+}
+.hui{
+  width: 100%;
+  background: #f8f8f8;
+  height: 20rpx;
+  margin-top: 10rpx;
+}
+.section{
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  background: #fff;
+
+}
+.red{
+  width: 10rpx;
+  height: 20rpx;
+  background: red;
+
+}
+.section_title{
+  display: flex;
+  align-items: center
+}
+.section_title text{
+  padding-left: 20rpx;
+}
+.cont1{
+  padding-left: 25rpx;
+  margin-top: 25rpx;
+  display: block;
+}
+.text1{
+  padding-left: 25rpx;
+  padding-right: 25rpx;
+}
+.text1 text{
+  color: #000;
+  font-size: 30rpx;
+}
+.footer{
+  width: 100%;
+  height: 100rpx;
+  border-top: 1px solid #ccc;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.foot_left image{
+  width: 30rpx;
+  height: 30rpx;
+}
+.foot_left{
+  text-align: center;
+
+  padding: 0 60rpx;
+}
+.foot_left text{
+  display: block;
+  color: #ccc;
+}
+.btn{
+  width: 400rpx;
+  background: #ff6946;
+  color: #fff;
+  height: 60rpx;
+  line-height: 60rpx;
+}

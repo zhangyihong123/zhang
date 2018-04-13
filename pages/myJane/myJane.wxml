@@ -1,0 +1,59 @@
+
+<!--logs.wxml-->
+<view class="contin"  style="height:{{hei}}px;width:{{wid}}px;">
+
+<!--tou  -->
+  <view class='engage'>
+  <view class='ere'>
+    <image src='../../images/h_3.png' class='img'></image>
+    <text class='prey'>猎聘 | </text>
+    <text class='duty'>让职场人更成功</text></view>
+    <image src='../../images/h_4.png' class='woe'></image>
+  </view>
+  <!--end  -->
+
+ <view class='resume'>
+
+    <view class='even' bindtap='ttt'>
+      <view class='bock'   >
+       <image src='../../images/h_5.png' class='tu'></image>
+      </view >
+        <view class='tet'>更新简历</view>
+        <view class='fu'>></view>
+        </view>
+       <view class='even'>
+      <view class='bock'>
+       <image src='../../images/h_5.png' class='tu'></image>
+      </view>
+        <view class='tet'>应聘记录</view>
+        <view class='fu'>></view>
+        </view>
+           <view class='even'>
+      <view class='bock'>
+       <image src='../../images/h_6.png' class='tu'></image>
+      </view>
+        <view class='tet'>我的收藏</view>
+        <view class='fu'>></view>
+        </view>
+           <view class='even'>
+      <view class='bock'>
+       <image src='../../images/h_7.png' class='tu'></image>
+      </view>
+        <view class='tet'>切换账号</view>
+        <view class='fu'>></view>
+        </view>
+    
+ </view>
+ <!--end  -->
+ <view  class='foot'>
+  <view class='foot_left'><view><image src='../../images/h_1.png'></image></view><view>
+  <text>首页</text>
+  </view></view>  
+  <view class='foot_right'><view><image src='../../images/h_2.png'></image></view><view>
+  <text>我的</text>
+  </view></view>
+ 
+ 
+ </view>
+ 
+</view>

@@ -1,0 +1,9 @@
+<!--pages/Hdl/Hdl.wxml-->
+<view class="container">
+  <view class='register'>
+  <text class='register-h' bindtap='registered'>企业注册</text>
+  <text class='register-m' bindtap='login'>企业登录</text>
+  </view>
+
+</view>
+

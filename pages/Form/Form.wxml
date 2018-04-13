@@ -1,0 +1,83 @@
+<!--pages/Form/Form.wxml-->
+<view class='cont'>
+ <view class='post'>
+ <label>姓名：</label>
+ <input type='text' class='tet' placeholder="请输入姓名"></input>
+</view>
+<view class='post'>
+ <label>年龄：</label> 
+ <input type='number' step="1" class='tet'></input>
+</view>
+
+<view class='post'>
+  <label>性别：</label>  
+   <label class="ter"> 
+  <radio-group bindchange="radioChange">
+
+ <radio value="男" checked="checked"/> 男
+ <radio value="女" checked=""/> 女
+ 
+</radio-group>
+ </label> 
+</view>
+
+
+<view class='post'>
+ <label>身份证号：</label> 
+<input type='text' class='tet' placeholder="请输入身份证号"></input>
+</view>
+<view class='post'>
+  <label>民族：</label>  
+  <label class="tere">
+  <radio-group class="post" bindchange="radioChange">
+
+ <radio value="汉族" checked="checked"/>汉族
+ <radio value="少数" checked=""/>少数
+ 
+</radio-group>
+</label>
+</view>
+<view class='post'>
+ <label>户籍地址：</label> 
+<input type='text' class='tet' placeholder="请输入户籍地址"></input>
+</view>
+<view class='post'>
+ <label>现住址：</label> 
+<input type='text' class='tet'placeholder="请输入现住址"></input>
+</view>
+<view class='post'>
+  <label>婚姻状况：</label>  
+  <label class="tere">
+  <radio-group class="post" bindchange="radioChange">
+
+ <radio value="未婚" checked="checked"/>未婚
+ <radio value="已婚" checked=""/>已婚
+ 
+</radio-group>
+</label>
+</view>
+<view class='post'>
+ <label>联系电话：</label> 
+<input type='tel' class='tet' placeholder="请输入电话"></input>
+</view>
+<view class='post'>
+ <label>个人技能：</label> 
+<input type='text' class='tet' placeholder="请输入技能"></input>
+</view>
+<view class='post'>
+ <label>教育情况：</label> 
+<input type='text' class='tet'></input>
+</view>
+<view class='post'>
+  <label>工作状态：</label>  
+	<picker bindchange="bindPickerChange" value="{{areaIndex}}" range="{{area}}">  
+    <view class="picker">  
+       {{area[areaIndex]}}   
+    </view>  
+</picker> 
+</view>
+<view class='post'>
+ <label>工作经验：</label> 
+<input type='text' class='tet' placeholder="请输入工作经验"></input>
+</view>
+</view>

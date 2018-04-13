@@ -1,0 +1,2 @@
+<!--pages/common/prompt/prompt.wxml-->
+<view class='box'><text>{{msg}}</text></view>

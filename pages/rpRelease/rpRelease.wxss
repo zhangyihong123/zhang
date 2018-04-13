@@ -1,0 +1,320 @@
+.qiye{
+width: 100%;
+height: 100rpx;
+padding-top: 13px;
+background: rgb(240, 239, 244);
+
+}
+.qiye_top{
+width: 90%;
+height: 40px;
+display: flex;
+border-radius: 15px;
+background: #fff;
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
+}
+.qiye_top image{
+width: 20px;
+height: 20px;
+display: block;
+margin-top: 12px;
+margin-left: 15px;
+}
+.qiye_top input{
+width: 92%;
+height: 40px;
+font-size: 15px;
+margin-left: 5px;
+}
+
+.hot{
+width: 100%;
+height: 40px;
+/* background: red; */
+display: flex;
+margin-top: 8px;
+}
+.hot view{
+height: 40px;
+line-height: 40px;
+color: #BABABA;
+font-size: 18px;
+padding-left: 20px;
+}
+.fuwu{
+  width: 100%;
+}
+.fuwu_centent{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.fuwu_centent button{
+  display: inline-block;
+  padding-left: 10px;
+  margin-top: 10px;
+  text-align: center;
+  margin-left: 6px;
+  background: #fff;
+}
+
+.xuanz{
+width: 100%;
+height: 40px;
+display: flex;
+margin-top: 8px;
+}
+.xuanz view{
+height: 40px;
+/* line-height: 40px; */
+color: #BABABA;
+font-size: 18px;
+padding-left: 20px;
+}
+.bb{
+  color: red;
+}
+ .vi{
+   line-height: 61px; 
+} 
+
+.zhiye_{
+ /* line-height: 61px; */
+  float: left;
+  margin-right: 5px;
+}
+.vi button{
+  background: #D2E8F6;
+}
+.ww{
+  color: red;
+  display: inline-block;
+}
+.qq{
+  
+  font-size: 16px;
+}
+.ren{
+  background: #F3F9FC;
+  margin-left:5px; 
+  margin-right: 5px;
+  width: 30px;
+  display: inline-block;
+}
+
+.select_box{
+background:#F3F9FC;
+width: 20%;
+display: inline-block;
+margin-left: 5px;
+position: relative;
+}
+.select_boxc{
+background:#F3F9FC;
+width: 18%;
+display: inline-block;
+margin-left: 5px;
+position: relative;
+}
+.select{
+box-sizing: border-box;
+width: 100%;
+height: 70rpx;
+border:1px solid #efefef;
+border-radius: 8rpx;
+display: flex;
+align-items: center;
+padding: 0 20rpx;
+}
+.select_text{
+font-size: 30rpx;
+flex: 1;
+}
+.option_box{
+position: absolute;
+top: 70rpx;
+width: 100%;
+border:1px solid #efefef;
+box-sizing: border-box;
+height: 0;
+overflow-y: auto;
+border-top: 0;
+background:#F3F9FC;
+transition: height 0.3s;
+}
+.option{
+display: block;
+line-height: 40rpx;
+font-size: 30rpx;
+border-bottom: 1px solid #efefef;
+padding: 10rpx;
+}
+.han{
+  margin-right: 8px;
+  font-size: 18px;
+}
+.section{
+  width: 100%;
+}
+.tex{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background: #f4f4f4;
+   float: left; 
+  text-align: center;
+  /* display: inline-block; */
+  /* margin-top: 10px; */
+}
+.xxy{
+ display: inline-block;
+}
+.picker{
+  height: 40px;
+  line-height: 40px;
+  background: #F3F9FC;
+  display: inline-block;
+}
+.picker_c{
+  width: 45px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #F3F9FC;
+  display: inline-block;
+}
+.fon_c{
+  font-size: 13px;
+
+}
+
+
+ .viq{
+  
+  
+   line-height: 30px; 
+} 
+
+.zhiye_q{
+ /* line-height: 61px; */
+  float: left;
+  margin-right: 5px;
+}
+.rr{
+  font-size: 13px;
+  
+}
+.yy{
+  font-size: 13px;
+  color: red;
+
+}
+.jj{
+font-size:12px;
+padding: 4px;
+color:#777;
+border:1px #ccc solid;
+background-color: #cff;
+border-radius: 5px;
+display: inline-block;
+margin:0 5px 5px;
+}
+.qq_v{
+  font-size: 16px;
+}
+
+.zhiye_qw{
+  width: 100%;
+  /* line-height: 61px;  */
+  float: left;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+.rr_q{
+  width: 40%;
+  background: #2F9DDF;
+}
+.qq_v{
+  margin-right: 15px;
+}
+.qaq{
+  background: #F3F9FC;
+  padding: 5px;
+  border: 1px solid #BEC9D4;
+  color: #000;
+  font-size: 12px;
+  border-radius:5px; 
+}
+.section_e{
+   padding: 5px; 
+   display: inline-block;
+  color: #000;
+  border-radius:5px; 
+}
+
+.pig{
+   display: inline-block; 
+  background: #F3F9FC;
+  padding: 5px;
+  font-size: 12px;
+  border: 1px solid #BEC9D4;
+  color: #000;
+  border-radius:5px; 
+}
+.qq_vr{
+  font-size: 13px;
+  color: red;
+
+}
+.picker_i{
+  font-size: 12px;
+}
+.zhiye_qwa{
+  width: 100%;
+  /* line-height: 61px;  */
+  float: left;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+/*  */
+
+.tui-btn-group{
+ padding: 10px;
+}
+.tui-btn-content{
+ height: 60px;
+ line-height: 60px;
+}
+
+.button-hover {
+ background-color: red;
+}
+
+.other-button-hover {
+ background-color: blue;
+}
+.active-tag .flex-item{
+background: #c8321e;
+color:#fff;
+}
+.job-label{
+font-size:10px;
+color:#777;
+background: #F3F9FC;
+border: 1px solid #BDC8D2;
+margin:0 5px 5px;
+display: inline-block;
+}
+.flex-item text{
+margin: 3px 5px;
+}
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+<!--pages/rpLogin/rpLogin.wxml-->
+<view class='rpLogin'>
+<view class='main'>
+  <view class='login'>
+      <view class='center'>
+        <view class='centers'>企业账号登录</view>
+      </view>
+  </view>
+   <view class='inputs'>
+      <input type='text' placeholder='用户名' class='name'></input>
+      <input type='password' placeholder='密码' class='password'></input>
+      <button  class='but'>点击验证</button>
+   </view>
+   <view class='consent'>
+      <radio-group bindchange="radioChange"> 
+          <checkbox checked='{{istrue}}' bindtap='aa'></checkbox>  <text>我已阅读并同意智联招聘</text>《用户服务协议》《隐私政策》
+      </radio-group>
+   </view>
+   <view class='bot_lohin' bindtap='log'>登录</view>
+   <view class='bottom'><text class='lef'>没有智联账号？</text>立即注册<text class='rit'>忘记密码</text></view>
+</view> 
+</view>

@@ -1,0 +1,39 @@
+<view class='myWork' style="height:{{hei}}px;width:{{wid}}px;">
+
+<view class='work'>
+<view class='searchs'><input type='search' class='search 'placeholder='输入职位关键词、公司名称'></input></view>
+<view class='header'><view class='site' bindtap='place'>地点</view><view class='recommend'><a herf='#'>推荐</ a></view><view class='company'><a herf="#">公司</ a></view></view>
+</view>
+
+
+<view class='corporation'>
+
+  <view class='JDcom' bindtap='JD' wx:for='{{arr}}'>
+
+      <view class='img'><image src='../../images/a.png' /></view>
+      <view class='right'>
+        <text class='jd'>{{arr[index].rp}}</text>
+        <text>{{arr[index].details[0].size}} | {{arr[index].details[0].industry}}</text>
+        <view class='grey'>{{arr[index].details[0].welfare[0]}}</view><view class='grey'>{{arr[index].details[0].welfare[1]}}</view><view class='grey'>{{arr[index].details[0].welfare[2]}}</view>
+        <view class='grey'>{{arr[index].details[0].welfare[3]}}</view>
+        <text>2296个与我相关的职位</text>
+      </view>
+   </view>
+
+
+</view>
+
+
+ <view  class='foot'>
+  <view class='foot_left'><view><image src='../../images/h_1.png'></image></view><view>
+  <text>首页</text>
+  </view></view>  
+  <view class='foot_right' bindtap='two'><view><image src='../../images/h_2.png'></image></view><view>
+  <text>我的</text>
+  </view></view>
+ 
+ 
+ </view>
+
+
+ </view>
